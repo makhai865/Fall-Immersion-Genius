@@ -1,5 +1,8 @@
-function counter() {
-    // Write your code below. Hint: you can finish it in about 3-5 lines.
-    counter_number = document.getElementById('counter-number');
-    counter_number.innerHTML = parseInt(counter_number.innerHTML) + 1;
-    }
+//console.log("Hello");
+//console.log("I like pizza");
+
+//window.alert('this is an alert');
+//window.alert("I like pizza!");
+
+document.getElementById("myH1").textContent = 'Hello';
+document.getElementById('myP').textContent = 'I like pizza!'
